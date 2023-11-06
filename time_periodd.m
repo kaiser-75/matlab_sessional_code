@@ -1,0 +1,1 @@
+function(detect,stopint,direction)=event11(t,y,varain)
