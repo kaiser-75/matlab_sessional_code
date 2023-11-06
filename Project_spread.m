@@ -1,0 +1,22 @@
+Item_No= {'1';'2';'3';'4';'5';'6';'7';'8'};
+Item_Description={'Earthwork Excavation';
+    'Cement Concrete(1:3:6)';
+    'Precast RC Work';
+    '1st Class Brickwork with 1:4 Cement Mortar in Septic Tank';
+    '1/2 inch Cement Plaster 1:3 For Septic  Tank';
+    '3/4 inch Cement Plaster 1:3 For Septic Tank';
+    'Aggregate at Bottom of Soak Pit';
+    'Coarse Sand at Bottom of Soak Pit';
+    };
+Quantity_Times_Price_Per_Quantity={'1631.53 cft @ 1475.00 per cft';
+    '69.72 cft @ 8991.00 per cft';
+    '149.25 cft @ 15073.53 per cft';
+    '346.51 cft @ 5629.40 per cft';
+    '391.67 sft @ 882.00 per sft';
+    '65.02 sft @ 1323.00 per sft';
+    '9.62 cft @ 33.50 per cft';
+    '14.43 cft @ 33.50 per cf'; 
+     }
+Total_Price_taka={1;2;3;4;5;6;7;8;};
+data=table(Item_No,Item_Description,Quantity_Times_Price_Per_Quantity,Total_Price_taka);
+writetable(data,'cost.xlsx');
